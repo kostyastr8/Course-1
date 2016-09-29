@@ -5,123 +5,414 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Title</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <section id="lesson-plan">
   <h1>
     Введення в CSS
+    <!--
+    h1
+    section h1
+    section>h1
+    #lesson-plan>h1
+    html body section #lesson-plan h1
+    body section#lesson-plan h1
+    section#lesson-plan h1
+    section~h1
+    -->
   </h1>
   <h2>
     Способи додавання CSS на сторінку
+    <!--
+    h2
+    section h2
+    section>h2
+    #lesson-plan>h2
+    section#lesson-plan h2
+    -->
   </h2>
   <ol>
+    <!--
+    ol
+    section ol
+    section>ol
+    #lesson-plan>ol
+    section#lesson-plan ol
+    -->
     <li>
+      <!--
+      li
+      section li
+      ol li
+      section ol li
+      section>ol li
+      #lesson-plan>ol li
+      section#lesson-plan ol li
+      -->
       <code>
         &lt;link rel="stylesheet" href="#"&gt;
+        <!--
+        code
+        section code
+        ol li code
+        section ol li code
+        section>ol li code
+        #lesson-plan>ol li code
+        li code
+        section li code
+        -->
       </code>
     </li>
   </ol>
   <h2>
     Синтаксис
+    <!--
+    h2
+    section h2
+    section>h2
+    #lesson-plan>h2
+    section#lesson-plan h2
+    -->
   </h2>
   <ol>
+    <!--
+    ol
+    section ol
+    section>ol
+    #lesson-plan>ol
+    section#lesson-plan ol
+    -->
     <li>
       Селектор і правила.
-    </li>
-    <li>
+      <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+     </li>
+     <li>
       Групування селекторів.
-    </li>
-  </ol>
-  <h2>
-    Селектори
-  </h2>
-  <ol>
-    <li>
-      Селектори тегів.
-    </li>
-    <li>
-      Селектори вкладених елементів:
-      <ul>
-        <li>
-          елементи нащадки.
-        </li>
-        <li>
-          дочірні елементи.
-        </li>
-      </ul>
-    </li>
-    <li>
-      Селектори сусідніх елементів.
-    </li>
-    <li>
-      Селектори атрибутів.
-      <ul>
-        <li>
-          <code>
-            [attr]
-          </code>
-        </li>
-        <li>
-          групування
-          <code>
-            [attr][attr]
-          </code>
-        </li>
-      </ul>
-    </li>
-  </ol>
-  <h2>
-    Вага селекторів
-  </h2>
-  <ol>
-    <li>
-      <code>
-        0.0.0.0
-      </code>
-      <code>
-        *
-      </code>
-    </li>
-    <li>
-      <code>
-        0.0.0.1
-      </code>
-      селектори елементів і псевдоелементів
-    </li>
-  </ol>
-</section>
-
-<section id="home-work">
-  <h1>
-    Домашнє завдання
-  </h1>
-  <ol>
-    <li>
-      В контент кожного елемента з файлу
-      <code>
-        homework.html
-      </code>
-      додати список селекторів, якими можна вибрати цей елемент.
-    </li>
-  </ol>
-</section>
-
-<section id="useful-links">
-  <h1>
-    Лінки
-  </h1>
-  <ul>
-    <li>
-      <a href="http://htmlbook.ru/samcss">
-        Самоучитель CSS
-      </a>
-    </li>
-    <li>
-      <a href="https://www.dropbox.com/s/9tsblinq6dcskrz/%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B_CSS__%D0%98%D0%B4%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD.pdf?dl=0">
-        Леа Веру. Секреты CSS. Идеальные решения ежедневных задач. 2016
-      </a>
-    </li>
-  </ul>
-</section>
-</body>
-</html>
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+     </li>
+   </ol>
+   <h2>
+     Селектори
+     <!--
+     h2
+     section h2
+     section>h2
+     #lesson-plan>h2
+     section#lesson-plan h2
+     -->
+   </h2>
+   <ol>
+     <!--
+     ol
+     section ol
+     section>ol
+     #lesson-plan>ol
+     section#lesson-plan ol
+     -->
+     <li>
+       Селектори тегів.
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+     </li>
+     <li>
+       Селектори вкладених елементів:
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+       <ul>
+         <!--
+         ul
+         section ul
+         li ul
+         section li ul
+         ol li ul
+         section ol li ul
+         section>ol li ul
+         #lesson-plan>ol li ul
+         section#lesson-plan ol li ul
+         -->
+           елементи нащадки.
+           <!--
+           li
+           section li
+           ul li
+           section ul li
+           ol li ul li
+           section ol li ul li
+           section>ol li ul li
+           #lesson-plan>ol li ul li
+           section#lesson-plan ol li ul li
+           -->
+         </li>
+         <li>
+           дочірні елементи.
+           <!--
+           li
+           section li
+           ul li
+           section ul li
+           ol li ul li
+           section ol li ul li
+           section>ol li ul li
+           #lesson-plan>ol li ul li
+           section#lesson-plan ol li ul li
+           -->
+         </li>
+       </ul>
+     </li>
+     <li>
+       Селектори сусідніх елементів.
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+     </li>
+     <li>
+       Селектори атрибутів.
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+       <ul>
+         <!--
+       ul
+       section ul
+       li ul
+       section li ul
+       ol li ul
+       section ol li ul
+       section>ol li ul
+       #lesson-plan>ol li ul
+       section#lesson-plan ol li ul
+         -->
+         <li>
+           <!--
+         li
+         section li
+         ul li
+         section ul li
+         section>ul li
+         #lesson-plan>ul li
+         li ul li
+         section li ul li
+         ol li ul li
+         section ol li ul li
+         section>ol li ul li
+         #lesson-plan>ol li ul li
+         section#lesson-plan ol li ul li
+           -->
+           <code>
+             <!--
+             code
+             section code
+             li code
+             section li code
+             ul li code
+             section ul li code
+             li ul li code
+             section li ul li code
+             ol li ul li code
+             section ol li ul li code
+             section>ol li ul li code
+             #lesson-plan>ol li ul li code
+             section#lesson-plan ol li ul li code
+             -->
+           </code>
+         </li>
+         <li>
+           <!--
+           групування
+           li
+           section li
+           ul li
+           section ul li
+           li ul li
+           section li ul li
+           ol li ul li
+           section ol li ul li
+           section>ol li ul li
+           #lesson-plan>ol li ul li
+           section#lesson-plan ol li ul li
+           <code>
+             [attr][attr]
+             -          </code>
+           code
+           section code
+           li code
+           section li code
+           ul li code
+           section ul li code
+           li ul li code
+           section li ul li code
+           ol li ul li code
+           section ol li ul li code
+           section>ol li ul li code
+           #lesson-plan>ol li ul li code
+           section#lesson-plan ol li ul li code
+           -->
+           </code>
+         </li>
+       </ul>
+     </li>
+   </ol>
+   <h2>
+     Вага селекторів
+     <!--
+     h2
+     section h2
+     section>h2
+     #lesson-plan>h2
+     section#lesson-plan h2
+     -->
+   </h2>
+   <ol>
+     <!--
+     ol
+     section ol
+     section>ol
+     #lesson-plan>ol
+     section#lesson-plan ol
+     -->
+     <li>
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+       <code>
+         0.0.0.0
+         <!--
+         code
+         section code
+         li code
+         section li code
+         ol li code
+         section ol li code
+         section>ol li code
+         #lesson-plan>ol li code
+         section#lesson-plan ol li code
+         -->
+       </code>
+       <code>
+         *
+       <!--
+       code
+       section code
+       li code
+       section li code
+       ol li code
+       section ol li code
+       section>ol li code
+       #lesson-plan>ol li code
+       section#lesson-plan ol li code
+       -->
+       </code>
+     </li>
+     <li>
+       <!--
+       li
+       section li
+       ol li
+       section ol li
+       section>ol li
+       #lesson-plan>ol li
+       section#lesson-plan ol li
+       -->
+       <code>
+         0.0.0.1
+         <!--
+         code
+         section code
+         li code
+         section li code
+         ol li code
+         section ol li code
+         section>ol li code
+         #lesson-plan>ol li code
+         section#lesson-plan ol li code
+         -->
+       </code>
+       селектори елементів і псевдоелементів
+     </li>
+     <section id="home-work">
+       <h1>
+         Домашнє завдання
+         <!--
+         h1
+         section h1
+         section>h1
+         #home-work>h1
+         section#home-work h1
+         -->
+       </h1>
+       <ol>
+         <li>
+           В контент кожного елемента з файлу
+         </li>
+           <code>
+             homework.html
+           </code>
+           додати список селекторів, якими можна вибрати цей елемент.
+         </li>
+         <section id="useful-links">
+           <h1>
+             Лінки
+           </h1>
+           <ul>
+             <li>
+               <a href="http://htmlbook.ru/samcss">
+                 Самоучитель CSS
+               </a>
+             </li>
+             <li>
+                <a href="https://www.dropbox.com/s/9tsblinq6dcskrz/%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B_CSS__%D0%98%D0%B4%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD.pdf?dl=0">
+                 Леа Веру. Секреты CSS. Идеальные решения ежедневных задач. 2016
+               </a>
+             </li>
+           </ul>
+         </section>
+ </body>
