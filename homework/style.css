@@ -2,7 +2,7 @@ body {
   background: #f7f7f7;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
-  min-width: 320px;
+  min-width: 300px;
 }
 
 .container {
@@ -181,13 +181,11 @@ header > .container {
     width: 166px;
     margin: 0 auto;
   }
-
   .header-search {
     float: none;
     width: 230px;
     margin: 0 auto;
   }
-
   .header-search input {
     width: calc(100% - 44px);
   }
@@ -200,12 +198,10 @@ header > .container {
       display: block;
       text-align: center;
     }
-
     .mainhome {
       float: none;
       margin: 20px 0;
       display: block;
       text-align: center;
     }
-
   }
