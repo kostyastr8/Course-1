@@ -134,3 +134,34 @@ header > .container {
   color: #232323;
   text-decoration: underline;
 }
+
+.page-content {
+  margin-top: 30px;
+  background-color: #e7e7e7;
+  font-family: 'Montserrat', sans-serif;
+  padding: 55px 10px;
+}
+
+.contact {
+  float: left;
+  font-size: 30px;
+  color: #232323;
+  line-height: 0.45;
+
+}
+
+.mainhome {
+  float: right;
+  font-size: 14px;
+}
+
+.home {
+  color: #999999;
+  text-decoration: none;
+}
+
+.home1 {
+  color: #666666;
+  text-decoration: none;
+}
+
