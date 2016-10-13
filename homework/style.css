@@ -176,9 +176,9 @@ header > .container {
 }
 
 @media (max-width: 480px) {
-  .header-logo{
+  .header-logo {
     float: none;
-    width:166px;
+    width: 166px;
     margin: 0 auto;
   }
 
@@ -191,10 +191,12 @@ header > .container {
   .header-search input {
     width: calc(100% - 44px);
   }
+}
 
   @media (max-width: 480px) {
-    .contact{
+    .contact {
       float: none;
+      margin-top: 20px;
       display: block;
       text-align: center;
     }
@@ -206,4 +208,4 @@ header > .container {
       text-align: center;
     }
 
-}
+  }
