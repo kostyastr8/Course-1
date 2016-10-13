@@ -171,7 +171,7 @@ header > .container {
   }
 
   .header-nav li+li{
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 
@@ -179,13 +179,14 @@ header > .container {
   .header-logo {
     float: none;
     width: 166px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
   }
   .header-search {
     float: none;
     width: 230px;
     margin: 0 auto;
-  }
+   }
+
   .header-search input {
     width: calc(100% - 44px);
   }
