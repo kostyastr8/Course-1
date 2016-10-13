@@ -2,10 +2,9 @@ body {
   background: #f7f7f7;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
-  min-width: 980px;
 }
+
 .container {
-  width: 960px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
@@ -73,7 +72,7 @@ header > .container {
   color: #ffffff;
 }
 .header-search button {
-  background: url(img/icon-search.png) center center no-repeat;
+  background: url("icon-search.png") center center no-repeat;
   border: none;
   font-size: 0;
   width: 44px;
