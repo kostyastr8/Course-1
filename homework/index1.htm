@@ -5,64 +5,69 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
 
-<header>
-      <div class="row">
-      <address class="col-md-12"> </address>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
+<div>
+  <address class="container">
+
+    <div class="row address">
+      <div class="col-md-6">
         <a href="tel:+38123456789">(+123) 456 789</a>
-          <div class="col-md-offset-6">
+      </div>
+      <div class="col-md-offset-6">
         <a href="#">Log in</a> or <a href="#">Register</a>
-        </div>
+      </div>
       </div>
 
-  </div>
-
-  <div class="container clear">
-    <div class="header-logo">
+    <div class="row">
+      <div class="col-md-3">
       <a href="#">
         <img src="image/logo.png" width="166" height="49" alt="site logo"/>
       </a>
-    </div>
-    <form action="#" class="header-search clear">
-      <input type="search" placeholder="Search Products&hellip;"/>
-      <button>Search</button>
-    </form>
-    <div class="clear"></div>
-    <div class="header-cart">
-      <span class="count">3</span>
-    </div>
+      </div>
+      <div class="col-md-offset-3">
+        <form action="#" class="header-search clear">
+          <input type="search" placeholder="Search Products&hellip;"/>
+          <button>Search</button>
+        </form>
+        </div>
+      </div>
+
+
     <nav class="header-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Living room</a></li>
-        <li><a href="#">Office</a></li>
-        <li><a href="#">Bedroom</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#" class="active">Contact</a></li>
-      </ul>
+      <div class="row">
+        <div class="col-md-1"><a href="#">Home</a></div>
+        <div class="col-md-1"><a href="#">Living room</a></div>
+        <div class="col-md-1"><a href="#">Office</a></div>
+        <div class="col-md-1"><a href="#">Bedroom</a></div>
+        <div class="col-md-1"><a href="#">Blog</a></div>
+        <div class="col-md-1"><a href="#" class="active">Contact</a></div>
+        <div class="header-cart">
+          <div class="col-md-offset-1">
+        <span class="count">3</span>
+          </div>
+        </div>
+      </div>
     </nav>
-  </div>
+  </address>
 
-
-</header>
-
-<div class="page-content">
-    <span class="contact">CONTACT US</span>
-    <div class="mainhome">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-2 hidden-xs">CONTACT US</div>
+    <div class="col-md-offset-2">
       <a href="#">HOME</a>
       <a href="#">/ CONTACT</a>
     </div>
+    </div>
   </div>
 
+</div>
 
 <footer></footer>
+
 </body>
 </html>
